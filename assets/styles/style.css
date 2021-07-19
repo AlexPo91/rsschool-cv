@@ -89,6 +89,17 @@
     font-size: 1.1rem;
   }
   
+  footer.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  footer .footer__img img {
+      width: 100px;
+  }
+
   a {
     text-decoration: none;
     color: #8c6699;

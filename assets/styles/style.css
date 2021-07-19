@@ -49,4 +49,51 @@
     color: #8c6699;
   }
   
+  .cv {
+    max-width: 900px;
+    margin: 0 auto;
+  }
   
+  .cv__item-title {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font: 700 24px "Open Sans", "Arial", sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .cv__item-title:after {
+    content: "";
+    height: 2px;
+    width: 100px;
+    margin-left: 15px;
+    background-color: #809966;
+  }
+  
+  .cv__item-title:before {
+    content: "";
+    height: 2px;
+    width: 100px;
+    margin-right: 15px;
+    background-color: #809966;
+  }
+  
+  .cv__item-text {
+    padding-bottom: 25px;
+    font: 400 16px/1.5 "Open Sans", "Arial", sans-serif;
+  }
+  
+  .link__cv {
+    font-size: 1.1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #8c6699;
+    transition: color 0.2s linear;
+  }
+  a:hover {
+    color: #809966
+  }

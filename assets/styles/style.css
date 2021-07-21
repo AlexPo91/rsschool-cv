@@ -22,7 +22,17 @@
     display: flex;
     align-items: center;
   }
-  
+
+  figure.header__img {
+    position: relative;
+  }
+  figcaption {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+  }
   .avatar{
     border-radius: 50%;
   }
@@ -85,6 +95,18 @@
     font: 400 16px/1.5 "Open Sans", "Arial", sans-serif;
   }
   
+  ul.cv__item-list.skill-list{
+    display: flex;
+  }
+
+  ul.cv__item-list.skill-list li.cv__item-text.skill-item:not(:last-child)::after{
+    content: ',\00a0 ';
+  }
+
+  ul.cv__item-list.skill-list li.cv__item-text.skill-item:last-child::after{
+    content: '.';
+  }
+
   .link__cv {
     font-size: 1.1rem;
   }
@@ -108,3 +130,5 @@
   a:hover {
     color: #809966
   }
+
+  
